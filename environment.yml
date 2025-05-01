@@ -1,0 +1,21 @@
+name: schwefel_sa
+channels:
+  - defaults
+  - conda-forge
+  - rapidsai
+  - nvidia
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - scikit-learn=1.2.2
+  - joblib
+  - cudatoolkit=11.8
+  - pip
+  - pip:
+    - tensorflow==2.10.0
+    - pandas
+    - scipy
+  - cuml=23.04
+  - cudf=23.04
+  - python-graphviz 
