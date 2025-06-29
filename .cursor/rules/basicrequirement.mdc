@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+本任务的基础要求是一共三次迭代，每次迭代只能提交20个样本给基准评估函数
