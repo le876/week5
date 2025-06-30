@@ -114,6 +114,7 @@ TuRBO 是一种基于 **信赖域（Trust Region）** 和 **贝叶斯优化（Bayesian Optimizati
 *Advances in Neural Information Processing Systems (NeurIPS), 2019*
 
 论文链接: http://papers.nips.cc/paper/8788-scalable-global-optimization-via-local-bayesian-optimization
+
 Official Code：https://github.com/uber-research/TuRBO
 
 ```bibtex
