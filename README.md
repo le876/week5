@@ -61,7 +61,7 @@ python main.py --task schwefel --mode simple \
     --verbose True
 ```
 
-## 优化d的函数
+## 目标函数
 
 ### Schwefel 函数
 - **维度**: 20 维
