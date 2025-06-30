@@ -15,16 +15,12 @@ TuRBO/
 │   ├── gp.py                # Gaussian Process 模型
 │   └── utils.py             # 工具函数
 ├── data/                     # 训练数据
-│   ├── Schwefel_x_train.npy    # Schwefel 函数训练输入
-│   ├── Schwefel_y_train.npy    # Schwefel 函数训练输出
-│   ├── Rosenbrock_x_train.npy  # Rosenbrock 函数训练输入
-│   └── Rosenbrock_y_train.npy  # Rosenbrock 函数训练输出
 ├── results/                  # 结果输出目录
-├── main.py                  # 主执行脚本
-├── functions.py             # 目标函数定义
-├── plotting.py              # 可视化功能
-├── config.py                # 配置管理
-└── requirements.txt         # 依赖列表
+├── main.py                   # 主执行脚本
+├── functions.py              # 目标函数定义
+├── plotting.py               # 可视化功能
+├── config.py                 # 配置管理
+└── requirements.txt          # 依赖列表
 ```
 ## 快速开始
 
@@ -118,6 +114,7 @@ TuRBO 是一种基于 **信赖域（Trust Region）** 和 **贝叶斯优化（Bayesian Optimizati
 *Advances in Neural Information Processing Systems (NeurIPS), 2019*
 
 论文链接: http://papers.nips.cc/paper/8788-scalable-global-optimization-via-local-bayesian-optimization
+Official Code：https://github.com/uber-research/TuRBO
 
 ```bibtex
 @inproceedings{eriksson2019scalable,
